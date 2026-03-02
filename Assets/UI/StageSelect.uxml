@@ -1,0 +1,14 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MenuStyle.uss?fileID=7433441132597879392&amp;guid=de4d8afd2a795f248a9adcd31cdfe3aa&amp;type=3#MenuStyle" />
+    <engine:VisualElement name="Title" style="flex-grow: 0; height: 100%; flex-shrink: 1; flex-wrap: nowrap; width: 100%;">
+        <engine:Label text="STAGE SELECT" style="align-self: center; align-items: stretch; align-content: center; font-size: 40px; height: 78px; width: 291px;" />
+        <engine:Button text="Stage1" name="Stage1" class="button" style="height: 100px; width: 100px; margin-left: 6%; margin-top: 6%; margin-right: 6%; margin-bottom: 6%; position: absolute; top: 15%; left: 5%;" />
+        <engine:Button text="Stage2" name="Stage2" class="button" style="flex-direction: column; height: 100px; width: 100px; margin-left: 6%; margin-top: 6%; margin-right: 6%; margin-bottom: 6%; position: absolute; top: 15%; left: 24%;" />
+        <engine:Button text="Stage3" name="Stage3" class="button" style="flex-direction: column; height: 100px; width: 100px; margin-left: 6%; margin-top: 6%; margin-right: 6%; margin-bottom: 6%; position: absolute; top: 15%; left: 42%;" />
+        <engine:Button text="Stage4" name="Stage4" class="button" style="flex-direction: column; height: 100px; width: 100px; margin-left: 6%; margin-top: 6%; margin-right: 6%; margin-bottom: 6%; position: absolute; top: 15%; left: 60%;" />
+        <engine:Button text="Stage5" name="Stage5" class="button" style="flex-direction: column; height: 100px; width: 100px; margin-left: 6%; margin-top: 6%; margin-right: 6%; margin-bottom: 6%; position: absolute; top: 15%; left: 78%;" />
+        <engine:Button text="Stage6" name="Stage6" class="button" style="flex-direction: column; height: 100px; width: 100px; margin-left: 6%; margin-top: 6%; margin-right: 6%; margin-bottom: 6%; position: absolute; top: 50%; left: 5%;" />
+        <engine:Button text="Stage7" name="Stage7" class="button" style="flex-direction: column; height: 100px; width: 100px; margin-left: 6%; margin-top: 6%; margin-right: 6%; margin-bottom: 6%; position: absolute; top: 50%; left: 24%;" />
+        <engine:Button text="Back" name="BackButton" class="button" style="width: 100px; height: 100px; margin-left: 6%; font-size: 20px; align-items: stretch; align-self: flex-start; margin-top: 6%; margin-right: 6%; margin-bottom: 6%; position: absolute; top: 66%; left: 81%;" />
+    </engine:VisualElement>
+</engine:UXML>
