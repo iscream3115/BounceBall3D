@@ -1,0 +1,8 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MenuStyle.uss?fileID=7433441132597879392&amp;guid=de4d8afd2a795f248a9adcd31cdfe3aa&amp;type=3#MenuStyle" />
+    <engine:VisualElement name="Root" style="flex-grow: 1;">
+        <engine:Button text="START" name="StartButton" class="button" style="margin-top: 565px; height: 74px; align-self: center; width: 256px; font-size: 20px;" />
+        <engine:Button text="EXIT" name="ExitButton" class="button" style="width: 256px; height: 74px; font-size: 20px; margin-top: 50px;" />
+        <engine:VisualElement name="TitleImg" style="flex-grow: 1; position: absolute; height: 414px; width: 1332px; top: 8%; left: 16%; background-image: url(&quot;project://database/Assets/Texture/Title.png?fileID=2800000&amp;guid=997148d40bccb544ab207d9e681aec87&amp;type=3#Title&quot;);" />
+    </engine:VisualElement>
+</engine:UXML>
